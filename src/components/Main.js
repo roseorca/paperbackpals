@@ -84,7 +84,7 @@ class Main extends React.Component {
             Can I get my match more than one book?
             <br/>
             Because the workers can only have 35 pounds in their suitcases we ask that you only get your match one book.
-             For this reason we also ask that you do not include extra items like stickers or pencil crayons wwith your book.
+             For this reason we also ask that you do not include extra items like stickers or pencil crayons with your book.
              <br/>
              
             
@@ -125,7 +125,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Register</h2>
-          <form method="post" action="#">
+          <form method="post" netlify>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -135,19 +135,19 @@ class Main extends React.Component {
               <input type="text" name="email" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <label htmlFor="age">Age</label>
+              <input type="text" name="age" id="age" />
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input type="submit" value="Register" className="special" />
               </li>
               <li>
                 <input type="reset" value="Reset" />
               </li>
             </ul>
           </form>
-          <ul className="icons">
+          {/* <ul className="icons">
             <li>
               <a
                 href="https://twitter.com/HuntaroSan"
@@ -174,7 +174,7 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li>
-          </ul>
+          </ul> */}
           {close}
         </article>
       </div>
