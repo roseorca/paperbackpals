@@ -126,6 +126,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Register</h2>
           <form method="post" name="register" data-netlify="true">
+            <input type="hidden" name="form-name" value="register" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
