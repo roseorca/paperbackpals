@@ -6,6 +6,15 @@ const Header = props => (
     {/* <div className="logo">
       <span className="icon fa-book"></span>
     </div> */}
+    <div>
+    <button
+            onClick={() => {
+              props.onOpenArticle('get_started')
+            }}
+          >
+            Get Started
+          </button>
+    </div>
     <div className="content">
       <div className="inner">
         <h1>Paperback Pals</h1>
@@ -53,6 +62,15 @@ const Header = props => (
             }}
           >
             Register
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('media')
+            }}
+          >
+            Media
           </button>
         </li>
       </ul>

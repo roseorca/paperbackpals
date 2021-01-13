@@ -43,7 +43,8 @@ class Main extends React.Component {
           You are matched with a child and receive an email with the child’s name, age, gender, 
           country of origin and language spoken
           You buy a brand new book and write a letter to your Paperback Pal introducing yourself and perhaps telling them a 
-          little bit about your book choice
+          little bit about your book choice.
+          <br/>
           Books and letters are dropped off to us or picked up from you depending on your location
           We deliver the books and letters to the migrant workers who packs them in their suitcase at the end of 
           harvest season and take them home to their waiting child.
@@ -116,7 +117,48 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+        <article
+          id="media"
+          className={`${this.props.article === 'media' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Media</h2>
+          <span className="image main">
+            <img src={pic03} alt="" />
+          </span>
+          <p>
+          Approximately 30,000 migrant workers come to Ontario from Mexico, Jamaica and the caribbean each year.   
+          They leave their home countries for up to eight months  a year to work on Ontario farms.  
+          They work hard to make sure that we have fresh fruits and vegetables!  
+          As kids we can all say thank you to these migrant workers who work so hard for us by connecting with their children 
+          through the donation of  book and the start of pen pal friendship.  
 
+          </p>
+          {close}
+        </article>
+        <article
+          id="get_started"
+          className={`${this.props.article === 'get_started' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Get Started</h2>
+          {/* <span className="image main">
+            <img src={pic03} alt="" />
+          </span> */}
+          <p>
+          Approximately 30,000 migrant workers come to Ontario from Mexico, Jamaica and the caribbean each year.   
+          They leave their home countries for up to eight months  a year to work on Ontario farms.  
+          They work hard to make sure that we have fresh fruits and vegetables!  
+          As kids we can all say thank you to these migrant workers who work so hard for us by connecting with their children 
+          through the donation of  book and the start of pen pal friendship.  
+
+          </p>
+          {close}
+        </article>
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
