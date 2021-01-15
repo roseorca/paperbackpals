@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Dimension V2',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    title: 'Paperback Pals',
+    author: 'Lane Smith',
+    description: 'Kid to Kid program to give books to other children',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

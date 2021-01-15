@@ -3,6 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import notl_article from '../images/notl_article.jpeg'
 
 class Main extends React.Component {
   render() {
@@ -22,13 +23,13 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="about"
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">About</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -37,34 +38,13 @@ class Main extends React.Component {
           Children in Ontario donate brand new books to the children of migrant workers! 
           This shows our thanks to the migrant workers and makes Paperback Pals is a great way for children or teens 
           to connect with others and make connections! We are looking for kids between the age of 4 and 16! 
-          <br/>
-          Migrant workers sign up to have their children receive a book
-          Kids in Ontario like you sign up to donate a brand new book
-          You are matched with a child and receive an email with the child’s name, age, gender, 
-          country of origin and language spoken
-          You buy a brand new book and write a letter to your Paperback Pal introducing yourself and perhaps telling them a 
-          little bit about your book choice.
-          <br/>
-          Books and letters are dropped off to us or picked up from you depending on your location
-          We deliver the books and letters to the migrant workers who packs them in their suitcase at the end of 
-          harvest season and take them home to their waiting child.
-          If they are able the child in Mexico or Jamaica will write to you if they have access to technology and 
-          you have included an email address
-          You donate a book.  A child gets the gift of reading.  You make a connection with a child in another country.  
-          Migrant workers feel a little bit more understood and appreciated.
-
-          Its a win-win win-win.
-
-          Have questions.  Send them to Lane at paperbackpalsbooks@gmail.com
-
-            
           </p>
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="faq"
+          className={`${this.props.article === 'faq' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
@@ -74,31 +54,38 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Do I get my book in Spanish?
-            <br/> When you are matched with a child I will tell you what language to get the book in. 
+            <h4>Do I need to purchase a book in Spanish?</h4>
+            When you are matched with a child I will tell you what language to get the book in.
             Some will need books in Spanish and some will need books in English.
-            <br/>
-            <p/>
-            Can I get my match a magazine?
-            <br/>You must get your match a book.
-            <p/>
-            Can I get my match more than one book?
-            <br/>
-            Because the workers can only have 35 pounds in their suitcases we ask that you only get your match one book.
-             For this reason we also ask that you do not include extra items like stickers or pencil crayons with your book.
-             <br/>
-             
-            
+          <p/>
+          <h4>Can I get my match a magazine instead of a book?</h4>
+          You must get your match a book.
+          <p/>
+          <h4>Can I get my match more than one book?</h4>
+          Because the workers can only have 35 pounds in their suitcases we ask that you only get your match one book.
+          For this reason we also ask that you do not include extra items like stickers or pencil crayons with your book.
+
           </p>
           <p>
-            
+          <h4>Where do I drop off my book?</h4>
+          We have a number of drop off locations throughout sourthern Ontario
+          Once you have received an email confirming your match we will work out 
+          the best drop off location for you.
+          </p>
+          <p>
+          <h4>Can I buy a hard cover book?</h4>
+          Please purchase a paperback book.
+          </p>
+          <p>
+          <h4>Can I make a special request? (example: age, gender, country of origin)</h4>
+          Yes. We will do our best to accomodate your preferences.
           </p>
           {close}
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
@@ -126,14 +113,10 @@ class Main extends React.Component {
         >
           <h2 className="major">Media</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={notl_article} alt="" />
           </span>
           <p>
-          Approximately 30,000 migrant workers come to Ontario from Mexico, Jamaica and the caribbean each year.   
-          They leave their home countries for up to eight months  a year to work on Ontario farms.  
-          They work hard to make sure that we have fresh fruits and vegetables!  
-          As kids we can all say thank you to these migrant workers who work so hard for us by connecting with their children 
-          through the donation of  book and the start of pen pal friendship.  
+          
 
           </p>
           {close}
@@ -150,11 +133,23 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span> */}
           <p>
-          Approximately 30,000 migrant workers come to Ontario from Mexico, Jamaica and the caribbean each year.   
-          They leave their home countries for up to eight months  a year to work on Ontario farms.  
-          They work hard to make sure that we have fresh fruits and vegetables!  
-          As kids we can all say thank you to these migrant workers who work so hard for us by connecting with their children 
-          through the donation of  book and the start of pen pal friendship.  
+         <p> Migrant workers sign up to have their children receive a book</p>
+          <p>Kids in Ontario like you sign up to donate a brand new book
+          You are matched with a child and receive an email with the child’s name, age, gender, country of origin and language spoken
+          You buy a brand new book and write a letter to your Paperback Pal 
+          introducing yourself and perhaps telling them a little bit about your book choice</p>
+          <p>Books and letters are dropped off to us or picked up from you depending on your location
+          We deliver the books and letters to the migrant workers who packs them in their suitcase at the end 
+          of harvest season and take them home to their waiting child.</p>
+          <p>If they are able the child in Mexico or Jamaica will write to you if 
+          they have access to technology and you have included an email address
+          You donate a book.  A child gets the gift of reading.  
+          You make a connection with a child in another country.  M
+          igrant workers feel a little bit more understood and appreciated.</p>
+
+          <p>Its a win-win win-win.
+
+          Have questions.  Send them to Lane at <a href="mailto: paperbackpalsbooks@gmail.com">paperbackpalsbooks@gmail.com</a></p>
 
           </p>
           {close}
