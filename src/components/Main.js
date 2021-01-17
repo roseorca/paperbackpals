@@ -36,8 +36,8 @@ class Main extends React.Component {
           <p>
           Paperback Pals is a youth led program that matches Ontario children with the children of migrant workers.  
           Children in Ontario donate brand new books to the children of migrant workers! 
-          This shows our thanks to the migrant workers and makes Paperback Pals is a great way for children or teens 
-          to connect with others and make connections! We are looking for kids between the age of 4 and 16! 
+          This shows our thanks to the migrant workers. <p>Paperback Pals is a great way for children or teens 
+          to connect with others and make connections! We are looking for kids between the age of 4 and 16!</p>
           </p>
           {close}
         </article>
@@ -134,7 +134,7 @@ class Main extends React.Component {
           </span> */}
           <p>
          <p> Migrant workers sign up to have their children receive a book</p>
-          <p>Kids in Ontario like you sign up to donate a brand new book
+          <p>Kids in Ontario like you sign up to donate a brand new book. Sign up using the register button.
           You are matched with a child and receive an email with the child’s name, age, gender, country of origin and language spoken
           You buy a brand new book and write a letter to your Paperback Pal 
           introducing yourself and perhaps telling them a little bit about your book choice</p>
@@ -144,8 +144,8 @@ class Main extends React.Component {
           <p>If they are able the child in Mexico or Jamaica will write to you if 
           they have access to technology and you have included an email address
           You donate a book.  A child gets the gift of reading.  
-          You make a connection with a child in another country.  M
-          igrant workers feel a little bit more understood and appreciated.</p>
+          You make a connection with a child in another country.
+           Migrant workers feel a little bit more understood and appreciated.</p>
 
           <p>Its a win-win win-win.
 
@@ -169,12 +169,12 @@ class Main extends React.Component {
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+            <label htmlFor="name">Age</label>
+              <input type="text" name="age" id="age" />
             </div>
             <div className="field">
-              <label htmlFor="age">Age</label>
-              <input type="text" name="age" id="age" />
+              <label htmlFor="email">Email</label>
+              <input type="text" name="email" id="email" />
             </div>
             <ul className="actions">
               <li>
