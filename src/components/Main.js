@@ -59,30 +59,34 @@ class Main extends React.Component {
           <h2 className="major">FAQ</h2>
           <span className="image main">
             <img src={pic02} alt="" />
-          </span>
+          </span> 
+          <p>
+          <h4>Can I make a special request? (example: age, gender, country of origin)</h4>
+          Yes. We will do our best to accomodate your preferences.
+          </p>
           <p>
             <h4>Do I need to purchase a book in Spanish?</h4>
             When you are matched with a child I will tell you what language to get the book in.
             Some will need books in Spanish and some will need books in English.
-           
-            <p>
+          </p>
+          <p>
           <h4>Can I buy a hard cover book?</h4>
           Migrant workers can only return home at the end of harvest season with one suitcase weighing 
           no more than 35 pounds. So we ask that you get a paperback book to reduce weight as much as possible.
           </p>
-          <p/>
-      <p/>
+          <p>
           <h4>Can I get my match more than one book?</h4>
           Because the workers can only have 35 pounds in their suitcases we ask that you only get
            your match one book.
           For this reason we also ask that you do not include extra items like stickers or 
           pencil crayons with your book.
-
           </p>
+          <p>
           <h4>Can I get my match a magazine instead of a book?</h4>
           Paperback Pals was created in part to share the joy of reading.
            Please buy your Paperback Pal an age appropiate fiction book. P
            lease no magazines, non fiction books,textbooks or activity books.
+           </p>
           {/* <p/>
           <h4>Can I get my match more than one book?</h4>
           Because the workers can only have 35 pounds in their suitcases we ask that you only get your match one book.
@@ -99,10 +103,7 @@ class Main extends React.Component {
           <h4>Can I buy a hard cover book?</h4>
           Please purchase a paperback book.
           </p> */}
-          <p>
-          <h4>Can I make a special request? (example: age, gender, country of origin)</h4>
-          Yes. We will do our best to accomodate your preferences.
-          </p>
+         
           <p>
           <h4>Where do I drop off my book?</h4>
           We have a number of drop off locations throughout sourthern Ontario
