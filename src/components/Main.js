@@ -34,10 +34,17 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-          Paperback Pals is a youth led program that matches Ontario children with the children of migrant workers.  
-          Children in Ontario donate brand new books to the children of migrant workers! 
-          This shows our thanks to the migrant workers. <p>Paperback Pals is a great way for children or teens 
-          to connect with others and make connections! We are looking for kids between the age of 4 and 16!</p>
+         <p> Paperback Pals is a program, 
+          created by 11 year old Lane, that gives books to
+           the children of migrant workers to say thank you for the hard work 
+           that they do in and for our communities. The program is kid lead and kid run. 
+        </p>
+          <p>Children in Ontario register to buy and donate a new book to the child of a migrant worker.
+        This shows our thanks to the migrant workers and gives children 
+          and teens a great way to connect with those in another country and perhaps build a penpal friendship.</p>
+          <p>We need your help so that we can get books to as many children 
+          of migrant workers as possible.  If you are between the ages of 4 and 
+        16 please sign up to be a Paperback Pal and make a difference in the life of another child.</p>
           </p>
           {close}
         </article>
@@ -57,28 +64,50 @@ class Main extends React.Component {
             <h4>Do I need to purchase a book in Spanish?</h4>
             When you are matched with a child I will tell you what language to get the book in.
             Some will need books in Spanish and some will need books in English.
+           
+            <p>
+          <h4>Can I buy a hard cover book?</h4>
+          Migrant workers can only return home at the end of harvest season with one suitcase weighing 
+          no more than 35 pounds. So we ask that you get a paperback book to reduce weight as much as possible.
+          </p>
           <p/>
+      <p/>
+          <h4>Can I get my match more than one book?</h4>
+          Because the workers can only have 35 pounds in their suitcases we ask that you only get
+           your match one book.
+          For this reason we also ask that you do not include extra items like stickers or 
+          pencil crayons with your book.
+
+          </p>
           <h4>Can I get my match a magazine instead of a book?</h4>
-          You must get your match a book.
-          <p/>
+          Paperback Pals was created in part to share the joy of reading.
+           Please buy your Paperback Pal an age appropiate fiction book. P
+           lease no magazines, non fiction books,textbooks or activity books.
+          {/* <p/>
           <h4>Can I get my match more than one book?</h4>
           Because the workers can only have 35 pounds in their suitcases we ask that you only get your match one book.
           For this reason we also ask that you do not include extra items like stickers or pencil crayons with your book.
 
+          </p> */}
+          {/* <p>
+          <h4>Where do I drop off my book?</h4>
+          We have a number of drop off locations throughout sourthern Ontario
+          Once you have received an email confirming your match we will work out 
+          the best drop off location for you.
+          </p> */}
+          {/* <p>
+          <h4>Can I buy a hard cover book?</h4>
+          Please purchase a paperback book.
+          </p> */}
+          <p>
+          <h4>Can I make a special request? (example: age, gender, country of origin)</h4>
+          Yes. We will do our best to accomodate your preferences.
           </p>
           <p>
           <h4>Where do I drop off my book?</h4>
           We have a number of drop off locations throughout sourthern Ontario
           Once you have received an email confirming your match we will work out 
           the best drop off location for you.
-          </p>
-          <p>
-          <h4>Can I buy a hard cover book?</h4>
-          Please purchase a paperback book.
-          </p>
-          <p>
-          <h4>Can I make a special request? (example: age, gender, country of origin)</h4>
-          Yes. We will do our best to accomodate your preferences.
           </p>
           {close}
         </article>
@@ -132,26 +161,30 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={pic03} alt="" />
           </span> */}
-          <p>
-         <p> Migrant workers sign up to have their children receive a book</p>
-          <p>Kids in Ontario like you sign up to donate a brand new book. Sign up using the register button.
-          You are matched with a child and receive an email with the child’s name, age, gender, country of origin and language spoken
-          You buy a brand new book and write a letter to your Paperback Pal 
-          introducing yourself and perhaps telling them a little bit about your book choice</p>
-          <p>Books and letters are dropped off to us or picked up from you depending on your location
-          We deliver the books and letters to the migrant workers who packs them in their suitcase at the end 
-          of harvest season and take them home to their waiting child.</p>
-          <p>If they are able the child in Mexico or Jamaica will write to you if 
-          they have access to technology and you have included an email address
-          You donate a book.  A child gets the gift of reading.  
-          You make a connection with a child in another country.
-           Migrant workers feel a little bit more understood and appreciated.</p>
-
-          <p>Its a win-win win-win.
-
-          Have questions.  Send them to Lane at <a href="mailto: paperbackpalsbooks@gmail.com">paperbackpalsbooks@gmail.com</a></p>
-
-          </p>
+          <ul>
+              {/* <li>Migrant workers sign up to have their children receive a book</li>
+              <li>Kids in Ontario like you sign up to donate a brand new book.</li>  */}
+              <li>Sign up using the register button.</li>
+              <li>You are matched with a child and receive an email with the child’s 
+                name, age, gender, country of origin and language spoken.</li>
+              <li>You buy a brand new book and write a letter to your Paperback Pal 
+              introducing yourself and perhaps telling them a little bit about your book choice</li>
+              <li>Books and letters are dropped off to us or picked up from you depending on your location</li>
+              <li>We deliver the books and letters to the migrant workers who pack them in their suitcase at the end 
+              of harvest season and take them home to their waiting child.</li>
+              <li>If they are able the child in Mexico or Jamaica will write to you if 
+              they have access to technology and you have included an email address.</li>
+              <li>You donate a book.</li>  
+              <li>A child gets the gift of reading. </li> 
+              <li>You make a connection with a child in another country.</li>
+              <li>Migrant workers feel a little bit more understood and appreciated.</li>
+           </ul>
+          <center><p>Its a win-win win-win.</p></center>
+          <center>
+            <p>
+              Have questions.  Send them to Lane at <a href="mailto: paperbackpalsbooks@gmail.com">paperbackpalsbooks@gmail.com</a>
+            </p>
+          </center>
           {close}
         </article>
         <article
