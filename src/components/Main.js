@@ -45,7 +45,8 @@ class Main extends React.Component {
           <p>We need your help so that we can get books to as many children 
           of migrant workers as possible.  If you are between the ages of 4 and 
         16 please sign up to be a Paperback Pal and make a difference in the life of another child.</p>
-          </p>
+          </p> 
+          <center>Have questions? Send them to Lane at <a href="mailto: paperbackpalsbooks@gmail.com">paperbackpalsbooks@gmail.com</a></center>
           {close}
         </article>
 
@@ -183,7 +184,7 @@ class Main extends React.Component {
           <center><p>Its a win-win win-win.</p></center>
           <center>
             <p>
-              Have questions.  Send them to Lane at <a href="mailto: paperbackpalsbooks@gmail.com">paperbackpalsbooks@gmail.com</a>
+              Have questions?  Send them to Lane at <a href="mailto: paperbackpalsbooks@gmail.com">paperbackpalsbooks@gmail.com</a>
             </p>
           </center>
           {close}
