@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Paperback Pals',
     author: 'Lane Smith',
-    description: 'Kid to Kid program to give books to other children',
+    description: 'A youth based program to share the love of reading and say thank you our migrant workers through the donation of a book and the creation of a penpal friendship betweeen Ontario children adn the children of mugrant workers.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
