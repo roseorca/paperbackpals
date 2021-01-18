@@ -174,7 +174,7 @@ class Main extends React.Component {
               <li>Books and letters are dropped off to us or picked up from you depending on your location</li>
               <li>We deliver the books and letters to the migrant workers who pack them in their suitcase at the end 
               of harvest season and take them home to their waiting child.</li>
-              <li>If they are able the child in Mexico or Jamaica will write to you if 
+              <li>If they are able to the child in Mexico or Jamaica will write to you if 
               they have access to technology and you have included an email address.</li>
               <li>You donate a book.</li>  
               <li>A child gets the gift of reading. </li> 
