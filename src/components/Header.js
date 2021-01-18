@@ -19,7 +19,7 @@ const Header = props => (
       <div className="inner">
         <h1>Paperback Pals</h1>
         <p>
-          A youth lead program to say thank you to the migrant workers in our community{' '}
+          A youth lead program to say thank you to the migrant workers in our communities{' '}
           
           {' '}
           
