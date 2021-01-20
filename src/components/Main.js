@@ -83,7 +83,7 @@ class Main extends React.Component {
           pencil crayons with your book.
           </p>
           <p>
-          <h4>Can I register as a family and use my email?</h4>
+          <h4>Can I register as a family? I have more than one child who wants to be apart of the program.</h4>
             All members of your family will have to be
              registered separatly but as a parent you can use your 
              email adress for all members of your family. 
