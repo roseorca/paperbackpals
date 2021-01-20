@@ -85,8 +85,8 @@ class Main extends React.Component {
           <p>
           <h4>Can I get my match a magazine instead of a book?</h4>
           Paperback Pals was created in part to share the joy of reading.
-           Please buy your Paperback Pal an age appropiate fiction book. P
-           lease no magazines, non fiction books,textbooks or activity books.
+           Please buy your Paperback Pal an age appropiate fiction book.
+             Please no magazines, non fiction books,textbooks or activity books.
            </p>
           {/* <p/>
           <h4>Can I get my match more than one book?</h4>
@@ -175,11 +175,12 @@ class Main extends React.Component {
               <li>We deliver the books and letters to the migrant workers who pack them in their suitcase at the end 
               of harvest season and take them home to their waiting child.</li>
               <li>If they are able to the child in Mexico or Jamaica will write to you if 
-              they have access to technology and you have included an email address.</li>
-              <li>You donate a book.</li>  
-              <li>A child gets the gift of reading. </li> 
-              <li>You make a connection with a child in another country.</li>
-              <li>Migrant workers feel a little bit more understood and appreciated.</li>
+              they have access to technology and you have included an email address.</li> 
+              <br></br>
+              You donate a book. 
+              A child gets the gift of reading. 
+              You make a connection with a child in another country.
+              Migrant workers feel a little bit more understood and appreciated.
            </ul>
           <center><p>Its a win-win win-win.</p></center>
           <center>
