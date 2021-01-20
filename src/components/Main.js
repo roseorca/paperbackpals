@@ -83,6 +83,17 @@ class Main extends React.Component {
           pencil crayons with your book.
           </p>
           <p>
+          <h4>Can I register as a family and use my email?</h4>
+            All members of your family will have to be
+             registered separatly but as a parent you can use your 
+             email adress for all members of your family. 
+
+
+          </p>
+
+
+
+          <p>
           <h4>Can I get my match a magazine instead of a book?</h4>
           Paperback Pals was created in part to share the joy of reading.
            Please buy your Paperback Pal an age appropiate fiction book.
