@@ -91,11 +91,9 @@ class Main extends React.Component {
 
           </p>
 
-
-
           <p>
           <h4>Can I get my match a magazine instead of a book?</h4>
-          Paperback Pals was created in part to share the joy of reading.
+          Paperback Pal s was created in part to share the joy of reading.
            Please buy your Paperback Pal an age appropiate fiction book.
              Please no magazines, non fiction books,textbooks or activity books.
            </p>
